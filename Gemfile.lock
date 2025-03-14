@@ -169,6 +169,9 @@ GEM
     public_suffix (6.0.1)
     puma (6.6.0)
       nio4r (~> 2.0)
+    puma-daemon (0.5.0)
+      puma (>= 5.0)
+      rack
     racc (1.8.1)
     rack (3.1.11)
     rack-session (2.1.0)
@@ -306,6 +309,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   puma (>= 5.0)
+  puma-daemon
   rails (~> 7.2.2, >= 7.2.2.1)
   rubocop-rails-omakase
   selenium-webdriver
