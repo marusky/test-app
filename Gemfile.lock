@@ -298,6 +298,7 @@ PLATFORMS
   aarch64-linux
   amd64-freebsd-13
   arm64-darwin-23
+  x86_64-freebsd-13
   x86_64-linux
 
 DEPENDENCIES
