@@ -3,7 +3,6 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby file: ".ruby-version"
 
-gem 'sqlite3'
 
 gem 'active_model_serializers'
 gem 'activejob'
@@ -47,6 +46,8 @@ gem 'activejob-uniqueness', require: 'active_job/uniqueness/sidekiq_patch'
 gem 'factory_bot_rails'
 gem 'faker'
 gem 'icalendar'
+gem 'sqlite3'
+
 
 group :development, :test do
   gem 'mocha'
