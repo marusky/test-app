@@ -1682,7 +1682,7 @@ GEM
     paper_trail (16.0.0)
       activerecord (>= 6.1)
       request_store (~> 1.4)
-    phonelib (0.9.2)
+    phonelib (0.10.6)
     psych (5.2.1)
       date
       stringio
@@ -1853,7 +1853,7 @@ DEPENDENCIES
   oj
   pagy
   paper_trail
-  phonelib (~> 0.9)
+  phonelib (~> 0.10)
   puma (>= 6.4.3)
   puma-daemon
   rack-cors (>= 2.0.2)
