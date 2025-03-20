@@ -1779,6 +1779,8 @@ GEM
     spring-watcher-listen (2.1.0)
       listen (>= 2.7, < 4.0)
       spring (>= 4)
+    sqlite3 (2.6.0)
+      mini_portile2 (~> 2.8.0)
     sshkit (1.21.5)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
@@ -1865,6 +1867,7 @@ DEPENDENCIES
   simplecov
   spring
   spring-watcher-listen
+  sqlite3
   timecop
   twilio-ruby
   tzinfo-data
