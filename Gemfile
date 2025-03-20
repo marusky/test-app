@@ -23,7 +23,7 @@ gem 'mysql2', '~> 0.5.3'
 gem 'newrelic_rpm'
 gem 'oj'
 gem 'paper_trail'
-gem 'phonelib', '~> 0.9'
+gem 'phonelib', '~> 0.10'
 gem 'puma', '>= 6.4.3'
 gem 'puma-daemon', require: false
 gem 'rack-cors', '>= 2.0.2'
